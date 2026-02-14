@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Models & Checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Project specific
+logs/
+saved_models/
+results/
+.idea/
+.vscode/
+
+# System
+Thumbs.db
+.DS_Store
