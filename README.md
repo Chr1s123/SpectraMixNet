@@ -46,10 +46,10 @@ python train1.py --model SpectraMixNet-t --exp indoor --gpu 0,1
 ```
 
 **常用参数:**
-- `--model`: 模型名称 (默认: `SpectraMixNet-t`)
-- `--exp`: 实验名称/数据集类型 (默认: `indoor`)
-- `--data_dir`: 数据集根目录 (默认: `../Dehazing/data/RESIDE-IN/`)
-- `--gpu`: 指定使用的 GPU ID (默认: `0,1`)
+- `--model`: 模型名称 
+- `--exp`: 实验名称/数据集类型 
+- `--data_dir`: 数据集根目录 
+- `--gpu`: 指定使用的 GPU ID 
 
 ### 2. 测试 (Testing)
 
